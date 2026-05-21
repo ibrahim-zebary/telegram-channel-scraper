@@ -114,12 +114,6 @@ Export text messages from a Telegram channel:
 python main.py channel_username
 ```
 
-Example:
-
-```bash
-python main.py yahyanawzarjaf
-```
-
 Export messages with a custom CSV file name:
 
 ```bash
@@ -130,12 +124,6 @@ Export messages and download media files:
 
 ```bash
 python main.py channel_username --media
-```
-
-Example:
-
-```bash
-python main.py yahyanawzarjaf --media
 ```
 
 ## Output
