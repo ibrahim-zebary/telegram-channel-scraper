@@ -156,21 +156,6 @@ During the first run, Telegram may request a verification code.
 
 After successful login, Telethon creates a local session file. This session file allows future runs without entering the verification code again.
 
-Session files are private and must not be uploaded to GitHub.
-
-## Security Notice
-
-The following files and values must remain private:
-
-- Telegram API ID
-- Telegram API Hash
-- Telegram phone number
-- Telegram login code
-- `.env` file
-- `.session` files
-
-The included `.gitignore` file prevents sensitive local files from being committed.
-
 ## Responsible Use
 
 This tool is intended for archiving, research, and analysis of Telegram channel content.
