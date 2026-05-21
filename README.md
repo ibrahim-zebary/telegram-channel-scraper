@@ -52,7 +52,7 @@ Before using this tool, a Telegram API ID and API Hash must be created from Tele
 Clone the repository:
 
 ```bash
-git clone https://github.com/<github-username>/telegram-channel-scraper.git
+git clone https://github.com/ibrahim-zebary/telegram-channel-scraper.git
 cd telegram-channel-scraper
 ```
 
@@ -190,70 +190,6 @@ This tool is intended for archiving, research, and analysis of Telegram channel 
 Usage must comply with Telegram rules, privacy expectations, and applicable laws. Content should only be collected from channels where access is permitted.
 
 This project does not bypass Telegram restrictions. Private channels require proper access from the authenticated Telegram account.
-
-## Limitations
-
-- Private channels require proper account access.
-- Some sender information may not be available depending on Telegram channel settings.
-- Large channels may take time to export.
-- Media download can require significant local storage.
-- Telegram rate limits may affect very large exports.
-
-## Files That Should Not Be Published
-
-The following files should not be pushed to GitHub:
-
-```text
-.env
-*.session
-*.session-journal
-exports/
-```
-
-These files may contain private credentials, login sessions, or exported data.
-
-## Example `.env.example`
-
-```env
-TELEGRAM_API_ID=123456
-TELEGRAM_API_HASH=example_api_hash_here
-TELEGRAM_PHONE=+1234567890
-```
-
-## Example `requirements.txt`
-
-```txt
-telethon
-python-dotenv
-```
-
-## Example `.gitignore`
-
-```gitignore
-# Environment variables
-.env
-
-# Telethon session files
-*.session
-*.session-journal
-
-# Exported data
-exports/
-
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Virtual environment
-venv/
-.venv/
-
-# OS files
-.DS_Store
-Thumbs.db
-```
 
 ## License
 
